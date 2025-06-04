@@ -12,6 +12,7 @@ export default function Home() {
 
   return (
     <>
+      {/* Hero banner Start */}
       <div className="relative bg-image bg-center bg-cover bg-[url('/images/travel-tours-banner.jpg')]">
         {/* <div className="absolute inset-0 bg-black opacity-30"></div> */}
         <div className="max-w-7xl mx-auto relative isolate px-6 lg:px-8">
@@ -45,6 +46,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* hero banner end */}
+      
       <PopularPackages posts={posts} />
       <Attraction />
       <Team />
