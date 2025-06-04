@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/Link";
+import Link from "next/link";
 import { getAllPosts } from "./posts/lib/posts";
 import PopularPackages from "./components/home/Packages";
 import WhyChooseUs from "./components/home/WhyChooseUs";
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       {/* hero banner end */}
-      
+
       <PopularPackages posts={posts} />
       <Attraction />
       <Team />
