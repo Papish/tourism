@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <div className="border-t-4 border-red-900 w-10 mx-auto mb-4 rounded-lg"></div>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
               Why Choose Us
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">

@@ -13,21 +13,20 @@ export default function Home() {
   return (
     <>
       <div className="relative bg-image bg-center bg-cover bg-[url('/images/travel-tours-banner.jpg')]">
-        {/* <div className="absolute inset-0 bg-black opacity-30"></div> */}
-        <div className="max-w-7xl mx-auto relative isolate px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto relative isolate">
           <div className="py-32 w-[400px] sm:py-48 lg:py-40">
             <div className="text-left">
-              <h2 className="mb-6 uppercase  font-semibold text-white">
+              <h2 className="mb-6 uppercase  font-semibold text-white px-6">
                 Best destination around nepal
               </h2>
-              <h1 className="text-4xl font-bold tracking-tight  sm:text-6xl text-white">
+              <h1 className="text-4xl font-bold tracking-tight  sm:text-6xl text-white  px-6">
                 Travel, enjoy and live a new full life
               </h1>
-              <p className="mt-6 text-lg text-white">
+              <p className="mt-6 text-lg text-white  px-6">
                 Trekking mountain nepal Pvt. Ltd is your one stop to find all
                 the destination and exciting places within and outside of Nepal.
               </p>
-              <div className="mt-10 flex items-center gap-x-6">
+              <div className="mt-10 flex items-center gap-x-6  px-6">
                 <a
                   href="#"
                   className="rounded-md bg-yellow-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -94,7 +93,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Destinations />s
+      <Destinations />
     </>
   );
 }

@@ -2,8 +2,8 @@ export default function TheFooter() {
   return (
     <footer className="mt-24 bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
       <div className="max-w-7xl px-6 mx-auto py-24 text-center md:text-left">
-        <div className="grid-1 grid gap-8 grid-cols-12">
-          <div className="col-span-6">
+        <div className="grid gap-8 grid-cols-12">
+          <div className="col-span-12 md:col-span-6">
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
               Travel & Tourism
             </h6>
@@ -14,7 +14,7 @@ export default function TheFooter() {
               from flights to accommodations, leaving you stress-free.
             </p>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 md:col-span-3">
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Services
             </h6>
@@ -31,7 +31,7 @@ export default function TheFooter() {
               <a href="#!">Travel Guides</a>
             </p>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 md:col-span-3">
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Contact Us
             </h6>

@@ -32,33 +32,7 @@ export default function Team() {
             and exciting. We are glad to meet you.
           </p>
         </div>
-        {/* <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-          <div className="items-start flex">
-            <a href="#" className="rounded-full overflow-hidden">
-              <Image
-                className="w-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                alt="Bonnie Avatar"
-                width={200}
-                height={200}
-              />
-            </a>
-            <div className="p-5">
-              <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href="#">Bonnie Green</a>
-              </h3>
-              <span className="text-gray-500 dark:text-gray-400">
-                CEO & Web Developer
-              </span>
-              <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                Bonnie drives the technical strategy of the flowbite platform
-                and brand.
-              </p>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3 h-[500px]">
+        <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3">
           {teams.map((team, index) => (
             <TeamCard key={index} team={team} />
           ))}
