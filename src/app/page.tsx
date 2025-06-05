@@ -12,6 +12,7 @@ export default function Home() {
 
   return (
     <>
+      {/* Hero banner Start */}
       <div className="relative bg-image bg-center bg-cover bg-[url('/images/travel-tours-banner.jpg')]">
         <div className="max-w-7xl mx-auto relative isolate">
           <div className="py-32 w-[400px] sm:py-48 lg:py-40">
@@ -44,6 +45,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* hero banner end */}
+      
       <PopularPackages posts={posts} />
       <Attraction />
       <Team />
