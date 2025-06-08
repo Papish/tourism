@@ -7,7 +7,7 @@ type Props = {
 
 export default function TeamCard({ team }: Props) {
   return (
-    <div className="h-full w-full flip-card">
+    <div className="w-full flip-card  h-[500px]">
       <div className="flip-card-inner">
         <div className="flip-card-front flex items-center overflow-hidden">
           <Image

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Attraction() {
   return (
     <div className="py-24 sm:py-24">
-      <div className="grid grid-cols-2 h-[500px]">
+      <div className="grid grid-cols-1 md:grid-cols-2  h-[500px]">
         <div className="relative h-full w-full group">
           <div className="group-hover:fadeInScale opacity-0 absolute inset-0 bg-black/50 z-10">
             <div className="flex h-full justify-center items-center text-center flex-col">
@@ -18,10 +18,9 @@ export default function Attraction() {
           </div>
           <Image
             src="/img-1.jpg"
-            width={1000}
-            height={1000}
             alt="pokhara"
-            className="w-full h-full"
+            fill
+            className="w-full h-full object-cover"
           ></Image>
         </div>
         <div className="relative h-full w-full group">
@@ -38,10 +37,9 @@ export default function Attraction() {
           </div>
           <Image
             src="/img-2.jpg"
-            width={1000}
-            height={1000}
+            fill
             alt="pokhara"
-            className="w-full h-full"
+            className="w-full h-full object-cover"
           ></Image>
         </div>
       </div>
